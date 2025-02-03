@@ -1,0 +1,13 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  table{
+    width: 100%;
+    text-align: center;
+  }
+  .elected {
+    background-color: #4b4b4b;  /* Cor cinza escuro */
+    color: white;               /* Para garantir que o texto seja visível */
+}

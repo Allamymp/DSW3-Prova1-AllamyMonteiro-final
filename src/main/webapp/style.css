@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+
+.body{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-color: black;
+    border: 2px solid black;
+    width: 600px;
+    height: 300px;
+    border-radius:  25px;
+}
+
+.left_display{
+    border: 2px solid grey;
+    width: 230px;
+    height: 250px;
+    margin-left: 3vw;
+    margin-top: 10px;
+    white-space: pre-wrap; /* Permite quebras de linha no texto */
+    word-wrap: break-word; /* Permite que o texto quebre quando exceder a largura */
+    word-break: break-word; /* Força quebra de palavras longas */
+    
+
+}
+
+.keyboard{
+    background-color: black;
+    height: 250px;
+    width: 270px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+
+ 
+}
+
+.botao-num{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: whitesmoke;
+    background-color: black;
+    width: 40px;
+    height: 50px;
+}
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 30px;
+    
+    
+}
+.last-row{
+    grid-column: 2;
+}
+
+.functions{
+    margin-left: 5px;
+}
+li{
+    list-style: none;
+}
+
+.botao-function-branco{
+    height: 30px;
+}
+.botao-function-corrige{
+    height: 30px;
+    background-color: lightcoral;
+}
+.botao-function-confirma{
+    height: 40px;
+    background-color: lightgreen;
+}
+
+.display_partido{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.display_candidato{
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.display_input{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+#display_text {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+
+a.botao-result {
+    display: inline-block;
+    padding: 15px 30px;  /* Aumenta o tamanho do botão */
+    background-color: #007bff;  /* Cor de fundo */
+    color: white;  /* Cor do texto */
+    text-align: center;
+    text-decoration: none;  /* Remove o sublinhado */
+    border-radius: 5px;  /* Bordas arredondadas */
+    font-size: 18px;  /* Tamanho da fonte */
+    font-weight: bold;  /* Deixa o texto em negrito */
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover */
+a.botao-result:hover {
+    background-color: #0056b3;  /* Muda a cor de fundo quando o mouse passa sobre o link */
+}
+
+button{
+    cursor: pointer;
+}

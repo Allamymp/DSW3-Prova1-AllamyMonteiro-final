@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence>
+    <persistence-unit name="allamymonteiro">
+        <properties>
+            <property name="javax.persistence.schema-generation.database.action" value="drop-and-create" />
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.use_sql_comments" value="true"/>
+            <property name="jakarta.persistence.sql-load-script-source" value="META-INF/import.sql"/>
+        </properties>
+    </persistence-unit>
+</persistence>
